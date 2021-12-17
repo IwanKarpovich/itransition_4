@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4D25F5DE276BF0C50061979B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25F5DD276BF0C50061979B /* main.swift */; };
+		4D25F5E5276D41C60061979B /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25F5E4276D41C60061979B /* extensions.swift */; };
+		4D25F5E7276D41F80061979B /* hash256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25F5E6276D41F80061979B /* hash256.swift */; };
+		4D25F5E9276D42550061979B /* game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25F5E8276D42550061979B /* game.swift */; };
+		4D25F5EB276D42A70061979B /* help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25F5EA276D42A70061979B /* help.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,11 @@
 /* Begin PBXFileReference section */
 		4D25F5DA276BF0C50061979B /* spok2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = spok2; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D25F5DD276BF0C50061979B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4D25F5E4276D41C60061979B /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		4D25F5E6276D41F80061979B /* hash256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hash256.swift; sourceTree = "<group>"; };
+		4D25F5E8276D42550061979B /* game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game.swift; sourceTree = "<group>"; };
+		4D25F5EA276D42A70061979B /* help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = help.swift; sourceTree = "<group>"; };
+		4D25F5EC276D557F0061979B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,11 @@
 			isa = PBXGroup;
 			children = (
 				4D25F5DD276BF0C50061979B /* main.swift */,
+				4D25F5E4276D41C60061979B /* extensions.swift */,
+				4D25F5E6276D41F80061979B /* hash256.swift */,
+				4D25F5E8276D42550061979B /* game.swift */,
+				4D25F5EA276D42A70061979B /* help.swift */,
+				4D25F5EC276D557F0061979B /* README.md */,
 			);
 			path = spok2;
 			sourceTree = "<group>";
@@ -121,6 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D25F5DE276BF0C50061979B /* main.swift in Sources */,
+				4D25F5E5276D41C60061979B /* extensions.swift in Sources */,
+				4D25F5EB276D42A70061979B /* help.swift in Sources */,
+				4D25F5E7276D41F80061979B /* hash256.swift in Sources */,
+				4D25F5E9276D42550061979B /* game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
