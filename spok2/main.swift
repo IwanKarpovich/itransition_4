@@ -19,11 +19,15 @@ class main
     
     init() {
         rules = readLine()!.split(separator: " ").compactMap {String($0)}
-        while rules.count < 3 || rules.count % 2 == 0 {
+        
+        while rules.count < 3 || rules.count % 2 == 0 || Array(Set(rules)).count != rules.count {
             if rules.count < 3{
                 print("length should be more then 3, example: 1 2 3")
             } else if rules.count % 2 == 0 {
                 print("must be odd, example: 1 2 3 4 5")
+            }
+            else if Array(Set(rules)).count > 0 {
+                print("remove duplicates, example: 1 2 3 4 5 6 7")
             }
             rules = readLine()!.split(separator: " ").compactMap {String($0)}
         }

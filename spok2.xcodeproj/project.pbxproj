@@ -34,6 +34,7 @@
 		4D25F5E8276D42550061979B /* game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game.swift; sourceTree = "<group>"; };
 		4D25F5EA276D42A70061979B /* help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = help.swift; sourceTree = "<group>"; };
 		4D25F5EC276D557F0061979B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4D25F5ED276E5B710061979B /* Запись экрана 2021-12-18 в 20.44.15.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Запись экрана 2021-12-18 в 20.44.15.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +51,8 @@
 		4D25F5D1276BF0C50061979B = {
 			isa = PBXGroup;
 			children = (
+				4D25F5ED276E5B710061979B /* Запись экрана 2021-12-18 в 20.44.15.mov */,
+				4D25F5EC276D557F0061979B /* README.md */,
 				4D25F5DC276BF0C50061979B /* spok2 */,
 				4D25F5DB276BF0C50061979B /* Products */,
 			);
@@ -71,7 +74,6 @@
 				4D25F5E6276D41F80061979B /* hash256.swift */,
 				4D25F5E8276D42550061979B /* game.swift */,
 				4D25F5EA276D42A70061979B /* help.swift */,
-				4D25F5EC276D557F0061979B /* README.md */,
 			);
 			path = spok2;
 			sourceTree = "<group>";
